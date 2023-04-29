@@ -9,68 +9,68 @@ So we can have a look at it and feel inspired.
 
 ### 1. Task arrival
 
-- Die Aufgabe kommt an. Vermutlich als E-mail.
-- Die Aufgabe wird per PowerShell-Script in das Kanbanboard aufgenommen.
-  - Die Dauer der Aufgabe wird anhand des Betreffs geschätzt.
-  - Die Email wird extrahiert und als Anhang hinzugefügt und es wird der letzte Hauptabschnitt der Email als Beschreibung aufgenommen.
-  - Die Aufgabe wird anhand von Regeln in eine passende Spalte aufgenommen.
-  - Klassifizierung der Aufgabe als Suppoort/Bug/Feature oder interne Weiterentwicklung.
+- The task arrives, probably as an email.
+- The task is added to the Kanban board using a PowerShell script.
+  - The duration of the task is estimated based on the subject.
+  - The email is extracted, added as an attachment, and the last main section of the email is included as a description.
+  - The task is added to a suitable column based on rules.
+  - Classification of the task as support/bug/feature or internal development.
 
-Verbesserungsideen für KI:
+Improvement ideas for AI:
 
-- Umschreiben der eintreffenden E-Mails
-  - Der Betreff der eintreffenden E-Mails ist oft nicht entsprechend dem Inhalt. Das erschwert im Kanban-Board die Übersicht. Kann KI einen guten neuen Betreff erzeugen?
-  - Durch die Ungenauigkeit des Betreffs verschlechtert sich u.a. unsere Vorhersage zur Aufgabendauer. (Kann KI hier einen Beitrag leisten? Z.B. durch saubere Formulierung des Betreffs)
-- Aufgaben verbessern
-  - Wenn KI einen passenden Betreff für Aufgaben wählen kann, dann verbessert sich die Übersicht im Kanban-Board.
-  - Kann KI in den sich aufstauenden Aufgaben nachsehen, ob wir bereits eine ähnliche Aufgabe von jemand anders haben?
-  - Kann KI automatisch Teilschritte für die Aufgaben erstellen und als Subtasks vermerken.
-  - Kann KI vielleicht eine standardisierte Aufgabenbeschreibung erzeugen (Wo ist das Problem? Was genau ist das Problem? Welchen Kunden betrifft das System.)
-  - Kann man prüfen, ob alle wichtigen Angaben im Inhalt enthalten sind.
+- Rewriting incoming emails
+  - The subject of incoming emails is often not in line with the content, making it difficult to get an overview in the Kanban board. Create a new, appropriate subject?
+  - Due to the inaccuracy of the subject, our task duration prediction is negatively impacted (can AI contribute here? e.g., by properly formulating the subject)
+- Improving tasks
+  - If AI can choose a suitable subject for tasks, the Kanban board overview will improve.
+  - Check in the accumulating tasks if we already have a similar task from someone else?
+  - Automatically create subtasks for the tasks.
+  - Generate a standardized task description (Where is the problem? What exactly is the problem? Which customer does the system affect?)
+  - Check if all important information is included in the content.
 
-#### Handling von Support-Aufgaben
+#### Handling of support tasks
 
-Support-Aufgaben können eine sehr hohe Varianz aufweisen, es gibt aber auch die üblichen Verdächtigen, bei denen wir
-bereits einen hohen Grad an Automatisierung vorliegen haben.
+Support tasks can have a very high variance, but there are also the usual suspects for which
+we already have a high degree of automation.
 
-Die herausfordernden Aufgaben sind sehr Wissensintensiv und müssen sauber gelöst werden. Hier kann KI nicht helfen.
+The challenging tasks are very knowledge-intensive and must be solved cleanly. AI cannot help here.
 
-#### Entwicklungsaufgaben
+#### Development tasks
 
-1. Anforderungssammlung
+1. Requirement collection
 
-- Können wir über KI-s herausfinden, wer von einer Aufgabe alles betroffen ist?
-- automtisch Lösungsvorschläge machen?
+- Can we use AI to find out who is affected by a task?
+- Automatically suggest solutions?
 
-2. Planung und Design
+2. Planning and Design
 
-- eine Architiktur vorschlagen?
-- User-Story use cases oder funktionale Spezifaktion schreiben?
-- das User-Interaface gestalten?
+- Propose an architecture?
+- Write user story use cases or functional specifications?
+- Design the user interface?
 
 3. Implementation
 
-- uns dabei helfen, herauszufinden, ob sich jemand an die Coding-Standards hält.
-- Welche Entwicklungsaufgaben im Rahmen unseres Tech-Stacks erledigen?
+- Help us find out if someone is following the coding standards.
+- Which development tasks can be done within the scope of our tech stack?
   - C#, MS SQL-Server, PHP, MySQL, TypeScript, Javascript, Powershell, Python, Rust
-- Brauchbarkeit für Performance-Optimierung z.B. in SQL
-  - Umschreiben einer Skalarfunktion in einen View
+- Usability for performance optimization, e.g., in SQL
+  - Rewriting a scalar function into a view
 
 4. Testing and Quality Assurance
 
-- einen Test-Plan entwickeln?
-- Unit Tests schreiben?
-- Bugs identifizieren und beheben?
+- Develop a test plan?
+- Write unit tests?
+- Identify and fix bugs?
 
 5. Deployment and Release
 
-- Kann es Skripte erstellen, die uns bei der Automatisierung von Deployment und Release helfen?
+- Can AI create scripts to help us automate deployment and release?
   - GitHub Actions
   - Powershell
   - Docker
 
-6. Maintainance and Support
+6. Maintenance and Support
 
-- Schreiben von Benutzerdokumentation
-- Schreiben von Trainingsmaterial
-- Lösungsvorschläge für identifizierte Probleme. (Vorschlag von Sofortmaßnahmen)
+- Writing user documentation
+- Writing training materials
+- Suggest solutions for identified problems. (Proposal for immediate measures)
