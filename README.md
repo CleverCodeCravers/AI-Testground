@@ -74,3 +74,4 @@ The challenging tasks are very knowledge-intensive and must be solved cleanly. A
 - Writing user documentation
 - Writing training materials
 - Suggest solutions for identified problems. (Proposal for immediate measures)
+- Proofreading of emails and documentation materials (removing grammar and spelling mistakes)
