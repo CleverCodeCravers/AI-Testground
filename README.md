@@ -7,7 +7,7 @@ This repository contains a list of questions we want to ask AIs to see how they 
 This process overview lists all the things that happen during the development process.
 So we can have a look at it and feel inspired.
 
-### 1. Task arrival
+### Task arrival
 
 - The task arrives, probably as an email.
 - The task is added to the Kanban board using a PowerShell script.
@@ -28,27 +28,27 @@ Improvement ideas for AI:
   - Generate a standardized task description (Where is the problem? What exactly is the problem? Which customer does the system affect?)
   - Check if all important information is included in the content.
 
-#### Handling of support tasks
+### Handling of support tasks
 
 Support tasks can have a very high variance, but there are also the usual suspects for which
 we already have a high degree of automation.
 
 The challenging tasks are very knowledge-intensive and must be solved cleanly. AI cannot help here.
 
-#### Development tasks
+### Handling Development tasks
 
-1. Requirement collection
+#### 1. Requirement collection
 
   - Can we use AI to find out who is affected by a task?
   - Automatically suggest solutions?
 
-2. Planning and Design
+#### 2. Planning and Design
 
   - Propose an architecture?
   - Write user story use cases or functional specifications?
   - Design the user interface?
 
-3. Implementation
+#### 3. Implementation
 
   - Help us find out if someone is following the coding standards.
   - Which development tasks can be done within the scope of our tech stack?
@@ -56,20 +56,20 @@ The challenging tasks are very knowledge-intensive and must be solved cleanly. A
   - Usability for performance optimization, e.g., in SQL
     - Rewriting a scalar function into a view
 
-4. Testing and Quality Assurance
+#### 4. Testing and Quality Assurance
 
   - Develop a test plan?
   - Write unit tests?
   - Identify and fix bugs?
 
-5. Deployment and Release
+#### 5. Deployment and Release
 
 - Can AI create scripts to help us automate deployment and release?
   - GitHub Actions
   - Powershell
   - Docker
 
-6. Maintenance and Support
+#### 6. Maintenance and Support
 
   - Writing user documentation
   - Writing training materials
