@@ -47,7 +47,7 @@ The challenging tasks are very knowledge-intensive and must be solved cleanly. A
 #### 2. Planning and Design
 
   - Propose an architecture?
-  - Write user story use cases or functional specifications?
+  - Write user story, use cases or functional specifications?
   - Design the user interface?
 
 #### 3. Implementation
