@@ -9,9 +9,11 @@ So we can have a look at it and feel inspired.
 
 ### Task arrival
 
+What is done in this state?
+
 - The task arrives, probably as an email.
 - The task is added to the Kanban board using a PowerShell script.
-  - The duration of the task is estimated based on the subject.
+  - The duration of the task is estimated based on the subject. 
   - The email is extracted, added as an attachment, and the last main section of the email is included as a description.
   - The task is added to a suitable column based on rules.
   - Classification of the task as support/bug/feature or internal development.
