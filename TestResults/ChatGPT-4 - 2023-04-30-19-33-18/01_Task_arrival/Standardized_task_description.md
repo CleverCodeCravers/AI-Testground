@@ -19,7 +19,7 @@ Best regards,
 Stefan
 ```
 
-Please answer the following questions: 
+Please answer the following questions:
 
 1. Which customers are involved?
 2. Which of our software systems is involved?
@@ -31,6 +31,14 @@ Please answer the following questions:
 
 ### Validation
 
+The answers match the given text.
 
 ### Result
 
+1. The customer involved is Megacorp.
+2. The software system involved is Veeam 12.
+3. The problem is that the monitoring sensor falsely reported a successful backup, while the backup actually failed. This led to the issue going unnoticed for the past 4 days.
+4. The problem is related to the monitoring system of Veeam 12 with the current patch level (12.0.0.1420 P20230412). The location of the problem is within the monitoring sensor and its querying method (PowerShell or API).
+5. The current state of the system is that it inaccurately reports backup success even when the backup has failed.
+6. The system should accurately report the backup status so that failed backups are immediately identified and addressed.
+7. A contact person is not explicitly mentioned in the text, but the sender of the message is named Stefan.
