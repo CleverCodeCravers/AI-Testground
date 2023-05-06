@@ -2,6 +2,8 @@
 
 This repository contains a list of questions we want to ask AIs to see how they can support us.
 
+[You are eager to read the results?](Summary.md)
+
 ## Software Development Process overview
 
 This process overview lists all the things that happen during the development process.
@@ -13,7 +15,7 @@ What is done in this state?
 
 - The task arrives, probably as an email.
 - The task is added to the Kanban board using a PowerShell script.
-  - The duration of the task is estimated based on the subject. 
+  - The duration of the task is estimated based on the subject.
   - The email is extracted, added as an attachment, and the last main section of the email is included as a description.
   - The task is added to a suitable column based on rules.
   - Classification of the task as support/bug/feature or internal development.
@@ -41,28 +43,28 @@ The challenging tasks are very knowledge-intensive and must be solved cleanly. A
 
 #### 1. Requirement collection
 
-  - Can we use AI to find out who is affected by a task?
-  - Automatically suggest solutions?
+- Can we use AI to find out who is affected by a task?
+- Automatically suggest solutions?
 
 #### 2. Planning and Design
 
-  - Propose an architecture?
-  - Write user story, use cases or functional specifications?
-  - Design the user interface?
+- Propose an architecture?
+- Write user story, use cases or functional specifications?
+- Design the user interface?
 
 #### 3. Implementation
 
-  - Help us find out if someone is following the coding standards.
-  - Which development tasks can be done within the scope of our tech stack?
-    - C#, MS SQL-Server, PHP, MySQL, TypeScript, Javascript, Powershell, Python, Rust
-  - Usability for performance optimization, e.g., in SQL
-    - Rewriting a scalar function into a view
+- Help us find out if someone is following the coding standards.
+- Which development tasks can be done within the scope of our tech stack?
+  - C#, MS SQL-Server, PHP, MySQL, TypeScript, Javascript, Powershell, Python, Rust
+- Usability for performance optimization, e.g., in SQL
+  - Rewriting a scalar function into a view
 
 #### 4. Testing and Quality Assurance
 
-  - Develop a test plan?
-  - Write unit tests?
-  - Identify and fix bugs?
+- Develop a test plan?
+- Write unit tests?
+- Identify and fix bugs?
 
 #### 5. Deployment and Release
 
@@ -73,7 +75,7 @@ The challenging tasks are very knowledge-intensive and must be solved cleanly. A
 
 #### 6. Maintenance and Support
 
-  - Writing user documentation
-  - Writing training materials
-  - Suggest solutions for identified problems. (Proposal for immediate measures)
-  - Proofreading of emails and documentation materials (removing grammar and spelling mistakes)
+- Writing user documentation
+- Writing training materials
+- Suggest solutions for identified problems. (Proposal for immediate measures)
+- Proofreading of emails and documentation materials (removing grammar and spelling mistakes)
