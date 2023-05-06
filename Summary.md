@@ -62,29 +62,9 @@ WizardLM failed also totally in the technical area.
 
 **AI Models that can be run with llama (CPU) and CUDA (GPU) require massive resources in order to run accordingly. Did not have enough resources**
 
-- Task Arrival:
-
-- Development:
-  - Requirement collection:
-  - Planning and Design:
-  - Implementation:
-  - Testing:
-
-In total:
-
 ## gpt4-x-alpaca-13b-native-4bit-128g
 
 **AI Models that can be run with llama (CPU) and CUDA (GPU) require massive resources in order to run accordingly. Did not have enough resources**
-
-- Task Arrival:
-
-- Development:
-  - Requirement collection:
-  - Planning and Design:
-  - Implementation:
-  - Testing:
-
-In total:
 
 ## AutoGPT
 
